@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "FrameworkForTestNewApp"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of FrameworkForTestNewApp."
+  spec.summary      = "A really project of collaboration around the world."
   spec.description  = <<-DESC
   Framework that includes generic tools to be used in each SDK implemented by Trader
                    DESC
@@ -12,11 +12,11 @@ Pod::Spec.new do |spec|
   spec.author       = "Luis Segoviano"
   spec.platform      = :ios, "17.4"
   spec.swift_version = '5.7.2'
-  spec.source       = { :git => "http://EXAMPLE/FrameworkForTestNewApp.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "git@github.com:the-segoviano/demo-sdk-custom-1.git", :tag => "#{spec.version}" }
   # spec.source        = { :git => "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/trader-ios-sdk-survey", :branch => ENV['APP_ENVIRONMENT'] }
   spec.source_files  = "FrameworkForTestNewApp/**/*.{swift,plist}"
-  spec.resources     = "FrameworkForTestNewApp/**/*.{xib,h,json,pdf,png,svg,strings,storyboard}"
-  spec.resource_bundles =  {'FrameworkForTestNewApp' => ['TraderSurvey/**/*.{xib,xcassets,json,pdf,png,svg,strings,storyboard}']}
+  #spec.resources     = "FrameworkForTestNewApp/**/*.{xib,h,json,pdf,png,svg,strings,storyboard}"
+  #spec.resource_bundles =  {'FrameworkForTestNewApp' => ['FrameworkForTestNewApp/**/*.{xib,xcassets,json,pdf,png,svg,strings,storyboard}']}
 
   # spec.dependency 'Alamofire', '4.9.1'
   # spec.dependency 'CryptoSwift'
